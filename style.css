@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    line-height: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+p{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 0;
+}
+main{
+    background-color: #F7F7FF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.logo img {
+    width: 3rem;
+    padding-top: 0.5rem;
+}
+footer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+form{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px #b4b4b4;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;  
+}
+form .aditional-text{
+    display: none;
+}
+
+.form-top input{
+    border: none;
+    background-color:#eeeeee;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+.form-top input{
+    font-size: 0.6rem;
+    font-weight: 300;
+    padding-left: 0.5rem;
+}
+.agree{
+    font-size: 0.7rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+.button input{
+    background-color: #57EEAB;
+    border: none;
+    border-radius: 0.5rem;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.check-status a{
+    text-decoration: none;
+    color: red;
+    line-height: 0.2rem;
+}
+.check-status{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.form h2{
+    padding-top: 0.6rem;
+    margin-bottom: 0;
+}
+.form p{
+    font-size: 0.6rem;
+}
+.form-top input, 
+.button input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.check-status{
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: #FFFD8C;
+}
+footer h4{
+    padding-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.75rem;
+}
+footer p{
+    font-size: 0.7rem;
+    padding-bottom: 0.6rem;
+}
+
+
+input#hours {
+    float: left;
+    width: 20%;
+}
+input#city{
+    width: 78%;
+    margin-left: 2%;
+   
+}
+
+.calculate-section input{
+    border: none;
+    background-color:#eeeeee;
+    border-radius: 0.3rem;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    padding-left: 0.2rem;
+
+}
+
+.calculate-button:nth-child(3){
+    width: 100%;
+    background-color: #FF8480;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+
+}
+
+ .social-icons{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     text-align: center;
+     padding-bottom: 1rem;   
+ }
+ .social-icons img{
+     width: 30%;
+ }
+/* ---------------------------------tablet view------------------------- */
+ @media (min-width: 768px){
+     main,
+     footer{
+         padding-left: 4rem;
+         padding-right: 4rem;
+     }
+
+    .scooter{
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    input#hours {
+        float: left;
+        width: 26%;
+    }
+    input#city{
+        float: left;
+        width: 50%;
+        margin-left: 2%;
+    }
+    .calculate-button:nth-child(3){
+        margin-top: 0;
+        margin-left: 2%;
+        float: left;
+        width: 20%;
+    }
+
+    .social-icons{
+        clear: both;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+ }
+
+ /* ---------------------------------screen view------------------------- */
+ @media (min-width: 1200px){
+     main{
+         display: grid;
+         grid-template-columns: 1fr 2fr 1fr ;
+         height: 75%;
+     }
+
+     #scooter-picture img{
+         position: absolute;
+         height: 70%;
+         z-index: 1;
+     }
+     .form-section{
+         z-index: 2;
+         width: 30rem;
+         margin-top: 7rem;
+         margin-right: 7rem;
+    }
+    .form-section input{
+        padding: 1.4rem;
+    }
+
+    footer{
+        display: flex;
+        width: 100%;  
+    }
+    
+
+    .social-icons img{
+        width: 80%;    
+    }
+    .social-icons{
+        width: 15%;
+        margin-right: 8rem; 
+    }
+    .social-icons a{
+        margin: auto;   
+    }
+   
+    .hours-and-city{
+        width: 30%;
+    }
+
+    .main h1{
+        font-size: 4.7rem;
+        line-height: 5rem;
+    }
+
+    .subtitle{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .form{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+    }
+    .form-top{
+        padding-top: 1rem;
+    }
+
+    .form-top input{
+        font-size: 1rem;
+        padding-left: 0.8rem;
+    }
+    .form h2{
+        font-size: 2.3rem;
+        padding-bottom: 1.5rem;
+    }
+    .form .no-aditional-text{
+        display: none;
+    }
+
+   
+    form .aditional-text{
+        display: inline;
+        font-size: 1.5rem; 
+    }
+
+    .button input{
+        padding:0;
+        font-size: 1.5rem;
+        height: 3rem;
+       
+       
+    }
+    .form p,
+    .agree{
+        font-size: 1rem;
+       
+    }
+    .check-status{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    footer h4{
+        font-size: 1.3rem;
+    }
+
+    footer p{
+        font-size: 0.75rem;
+    }
+
+    .calculate-section input,
+    .calculate-button:nth-child(3){
+        font-size: 0.8rem; 
+    }
+
+    .hours-and-city{
+        padding-bottom: 2rem;
+    }
+
+ }

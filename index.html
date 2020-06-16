@@ -1,14 +1,75 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helia Rassi</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Helia Rassi</h1> 
-    <p>The course and section number : MTM6201</p>
-    <p>GitHub Username : rass0013</p>
-    <p>I took and passed some online courses from linkedIn learning</p>
+    <main class="main">
+        <header>
+            <logo class="logo">
+                <img src="images/logo/logo.png" alt="logo" >
+            </logo>
+            <h1>Want to be your own boss?</h1>
+            <p class="subtitle">Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+            
+        </header>
+        <div id="scooter-picture">
+            <img class="scooter" src="images/bg-image/scooter.svg" alt="scooter">
+        </div>
+        <section class="form-section">
+            <form class="form">
+                <h2>Apply Now</h2>
+                <p class="no-aditional-text">Enter your info below.</p>
+                <p class="aditional-text">Enter your info below to get start.</p>
+                <div class="form-top">
+                    <div>
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="fname" placeholder="First name">
+                    </div>
+                    <div>
+                        <input type="text" id="Lname" name="Lname" placeholder="Last name">
+                    </div>
+                    <div>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone number">
+                    </div>
+                    <div>
+                        <input type="text" id="email" name="email" placeholder="Email Adress">
+                    </div>
+                </div>
+                <div class="agree">    
+                    <input type="checkbox" id="agreement" name="agreement" value="agreement" >
+                    <label for="agreement"> I agree to dash terms</label>     
+                </div>
+                <div class="button">
+                    <input type="submit" value="DRIVE WITH US">
+                </div>
+                <p class="check-status">Already applied?<a href="#">Check your application status here</a></p>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <section class="hours-and-city">
+                <h4>See how much you can earn with Dash.</h4>
+                <p>how many hours do you want to drive with us this week?</p>
+                    <div class="calculate-section">
+                        <input type="text" id="hours" name="hours" placeholder="Hours">
+                        <input type="text" id="city" name="hours" placeholder="City">
+                        <input class="calculate-button" type="submit" value="CALCULATE">
+                    </div>
+
+        </section>
+        <section class="social-icons">
+                <a href="#"><img src="images/icons/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="images/icons/instagram.svg" alt="facebook"></a>
+                <a href="#"><img src="images/icons/twitter.svg" alt="facebook"></a>
+                <a href="#"><img src="images/icons/linkedin.svg" alt="facebook"></a>
+        </section>
+            
+    </footer>
+  
+    
 </body>
 </html>
