@@ -194,7 +194,7 @@ input#city{
      main{
          display: grid;
          grid-template-columns: 1fr 2fr 1fr ;
-         height: 75%;
+    
      }
 
      #scooter-picture img{
@@ -207,6 +207,7 @@ input#city{
          width: 30rem;
          margin-top: 7rem;
          margin-right: 7rem;
+         padding-bottom: 4rem;
     }
     .form-section input{
         padding: 1.4rem;
@@ -239,7 +240,7 @@ input#city{
     }
 
     .subtitle{
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 2rem;
     }
 
