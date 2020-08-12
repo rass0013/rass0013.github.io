@@ -922,13 +922,13 @@ main{
 
 .signup-items ::placeholder{
     color: #FCA311;
-    font-size: 1rem;
+
     font-family: 'Montserrat', sans-serif;
 }
 
 .signin-items ::placeholder{
     color: #ffffff;
-    font-size: 1rem;
+   
     font-family: 'Montserrat', sans-serif;
 }
 .signup-form p{
