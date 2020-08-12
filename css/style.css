@@ -945,16 +945,16 @@ main{
     background-color: #7E5209;
     color: #ffffff;
     margin-top: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .signin-form .form-submit-button input{
     background-color: #000000;
     color: #ffffff;
     margin-top: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .signup-form .form-submit-button:hover input,
 .signin-form .form-submit-button:hover input{
